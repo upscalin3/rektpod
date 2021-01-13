@@ -13,4 +13,6 @@ USER gitpod
 
 
 RUN sudo apt-get update -q && \
-   sudo apt-get install -yq git build-essential cmake libuv1-dev libssl-dev libhwloc-dev cpulimit 
+   sudo add-apt-repository universe -y && \
+   sudo apt-get update -y && \
+   sudo apt install -yq pkg-config libsodium-dev autoconf-archive git libssl-dev build-essential -y
